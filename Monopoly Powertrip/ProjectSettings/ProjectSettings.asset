@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: 78934d583692eef4799a672134641b8e
+  productGUID: 65e8c337b77bbef48b9ce6fed38c6f90
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -701,10 +701,10 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: f7a048df-8b1a-46be-ad2a-aecc2a4b9a78
+  cloudProjectId: bacc4ae3-a4d5-4c4f-8897-ec7f01a9a2ad
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Monopoly Powertrip 2024-01-06_15-29-55
+  projectName: Monopoly Powertrip 2024-01-06_11-50-43
   organizationId: vgmadlads
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
