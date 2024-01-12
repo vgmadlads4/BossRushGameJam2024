@@ -6,7 +6,8 @@ public class weaponShoot : MonoBehaviour
 {
     public GameObject bullet;
     public GameObject bulletTwo;
-    public bool changeBullets = true;
+    public GameObject bulletThree;
+    public int changeBullets = 1;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,19 +17,17 @@ public class weaponShoot : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (changeBullets == true)
+        if (Input.GetKeyDown("1"))
         {
-            if (Input.GetKeyDown("c"))
-            {
-                changeBullets = false;
-            }
+            changeBullets = 1;
         }
-        else if (changeBullets == false)
+        else if (Input.GetKeyDown("2"))
         {
-            if (Input.GetKeyDown("c"))
-            {
-                changeBullets = true;
-            }
+            changeBullets = 2;
+        }
+        else if(Input.GetKeyDown("3"))
+        {
+            changeBullets = 3;
         }
     }
 }
