@@ -4,13 +4,16 @@ using UnityEngine;
 
 public class playerController : MonoBehaviour
 {
-<<<<<<< Updated upstream
-    public int health = 100;
-=======
     public playerController thePlayer;
+    public GameObject playerCharacter;
     public int health = 3;
     public int getBulletType;
->>>>>>> Stashed changes
+
+    private void Awake()
+    {
+
+    }
+
     // Start is called before the first frame update
     void Start()
     {
