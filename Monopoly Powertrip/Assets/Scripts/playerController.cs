@@ -5,12 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class playerController : MonoBehaviour
 {
-<<<<<<< HEAD
+ //HEAD
     public int health = 3;
-=======
+
     public playerController thePlayer;
     public GameObject playerCharacter;
-    public int health = 3;
     public int getBulletType;
 
     private void Awake()
@@ -18,7 +17,6 @@ public class playerController : MonoBehaviour
 
     }
 
->>>>>>> Shooting_Script_1_11_2024
     // Start is called before the first frame update
     void Start()
     {

@@ -1,0 +1,1396 @@
+fileFormatVersion: 2
+guid: af3497c577d40c14f947e542ef537a90
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Spearguard_Frame_0
+    originalName: 
+    pivot: {x: 0.75, y: -0.22727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 82
+      width: 16
+      height: 22
+    spriteID: 7ea4d370e16e1a844ac8c397437499e7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 82}
+  - name: Spearguard_Frame_1
+    originalName: 
+    pivot: {x: 0.75, y: -0.22727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 28
+      y: 82
+      width: 16
+      height: 22
+    spriteID: 79cd289182ed07c43856792b79dc3938
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 28, y: 82}
+  - name: Spearguard_Frame_2
+    originalName: 
+    pivot: {x: 0.75, y: -0.22727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 52
+      y: 82
+      width: 16
+      height: 22
+    spriteID: dabb42a16acc95e44ac5b1b6322bc1cf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 52, y: 82}
+  - name: Spearguard_Frame_3
+    originalName: 
+    pivot: {x: 0.75, y: -0.22727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 82
+      width: 16
+      height: 22
+    spriteID: dce1c1339deebb74d93a188a708788a0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 82}
+  - name: Spearguard_Frame_4
+    originalName: 
+    pivot: {x: 0.75, y: -0.22727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 100
+      y: 82
+      width: 16
+      height: 22
+    spriteID: 720ad954f29b6514a910894f23e13199
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 100, y: 82}
+  - name: Spearguard_Frame_5
+    originalName: 
+    pivot: {x: 0.75, y: -0.22727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 124
+      y: 82
+      width: 16
+      height: 22
+    spriteID: 40c0a41d40b77fa43b26b775c9d94298
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 124, y: 82}
+  - name: Spearguard_Frame_6
+    originalName: 
+    pivot: {x: 0.75, y: -0.22727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 148
+      y: 82
+      width: 16
+      height: 22
+    spriteID: 921aae5857c1c0843ba189cbd560e995
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 148, y: 82}
+  - name: Spearguard_Frame_7
+    originalName: 
+    pivot: {x: 0.75, y: -0.22727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 172
+      y: 82
+      width: 16
+      height: 22
+    spriteID: 7396564929062b646a019a5b115e9962
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 172, y: 82}
+  - name: Spearguard_Frame_8
+    originalName: 
+    pivot: {x: 0.75, y: -0.22727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 196
+      y: 82
+      width: 16
+      height: 22
+    spriteID: aea1b183875ca2845bf093a5ee6d111f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 196, y: 82}
+  - name: Spearguard_Frame_9
+    originalName: 
+    pivot: {x: 0.75, y: -0.22727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 220
+      y: 82
+      width: 16
+      height: 22
+    spriteID: 2968d8d71863ad14e8e64a5d011572be
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 220, y: 82}
+  - name: Spearguard_Frame_10
+    originalName: 
+    pivot: {x: 0.75, y: -0.22727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 112
+      width: 16
+      height: 22
+    spriteID: 61d8c3795f2bffe4a82e932f392da16c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 112}
+  - name: Spearguard_Frame_11
+    originalName: 
+    pivot: {x: 0.5, y: -0.29411766}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 191
+      y: 31
+      width: 22
+      height: 17
+    spriteID: 47d6b9c56bb0fee41ae5cc2bab91dfa3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 191, y: 31}
+  - name: Spearguard_Frame_12
+    originalName: 
+    pivot: {x: 0.5, y: -0.33333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 99
+      y: 4
+      width: 22
+      height: 18
+    spriteID: a0cb08c170f07db4a91583bb8687155f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 99, y: 4}
+  - name: Spearguard_Frame_13
+    originalName: 
+    pivot: {x: 0.5, y: -0.3888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 129
+      y: 4
+      width: 22
+      height: 18
+    spriteID: af5b33f8237ef524f8533344cc12991e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 129, y: 4}
+  - name: Spearguard_Frame_14
+    originalName: 
+    pivot: {x: 0.5, y: -0.4117647}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 221
+      y: 31
+      width: 22
+      height: 17
+    spriteID: c156754c60cfd60448a6c6d9ed18b953
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 221, y: 31}
+  - name: Spearguard_Frame_15
+    originalName: 
+    pivot: {x: 0.5, y: -0.29411766}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 57
+      width: 22
+      height: 17
+    spriteID: 2061b9b5c9ae0114abc14314e4224bfc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 57}
+  - name: Spearguard_Frame_16
+    originalName: 
+    pivot: {x: 0.5, y: -0.33333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 159
+      y: 4
+      width: 22
+      height: 18
+    spriteID: 0ebc3c1dedfb4364597981af1180c16d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 159, y: 4}
+  - name: Spearguard_Frame_17
+    originalName: 
+    pivot: {x: 0.5, y: -0.3888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 189
+      y: 4
+      width: 22
+      height: 18
+    spriteID: 8e45037b6a72def43a4cc00b6616401f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 189, y: 4}
+  - name: Spearguard_Frame_18
+    originalName: 
+    pivot: {x: 0.5, y: -0.4117647}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 34
+      y: 57
+      width: 22
+      height: 17
+    spriteID: 52d560ed149142b4685557eed39a176c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 34, y: 57}
+  - name: Spearguard_Frame_19
+    originalName: 
+    pivot: {x: 0.54545456, y: -0.2777778}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 219
+      y: 4
+      width: 22
+      height: 18
+    spriteID: 8367423acabe51a4a98bdd1dbbde02a8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 219, y: 4}
+  - name: Spearguard_Frame_20
+    originalName: 
+    pivot: {x: 0.5909091, y: -0.29411766}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 57
+      width: 22
+      height: 17
+    spriteID: 34b51ab12398a124caf187acc926cd2c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 64, y: 57}
+  - name: Spearguard_Frame_21
+    originalName: 
+    pivot: {x: 0.6363636, y: -0.29411766}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 94
+      y: 57
+      width: 22
+      height: 17
+    spriteID: 0066a93c9ba4d7f46a8ca4c99cdbf52a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 94, y: 57}
+  - name: Spearguard_Frame_22
+    originalName: 
+    pivot: {x: 0.33333334, y: -0.3125}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 127
+      y: 31
+      width: 24
+      height: 16
+    spriteID: 88b176035014f474dbb727d7a51d279b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 127, y: 31}
+  - name: Spearguard_Frame_23
+    originalName: 
+    pivot: {x: 0.3478261, y: -0.29411766}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 34
+      y: 31
+      width: 23
+      height: 17
+    spriteID: b6824e98c9fcbb442bff01a11e496bcb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 34, y: 31}
+  - name: Spearguard_Frame_24
+    originalName: 
+    pivot: {x: 0.54545456, y: -0.2777778}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 31
+      width: 22
+      height: 18
+    spriteID: 9ab41e58275fc6744bd63af2cb32aa8c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 31}
+  - name: Spearguard_Frame_25
+    originalName: 
+    pivot: {x: 0.5909091, y: -0.29411766}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 124
+      y: 57
+      width: 22
+      height: 17
+    spriteID: 9d80ad46f4d600446a03adc66252b96f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 124, y: 57}
+  - name: Spearguard_Frame_26
+    originalName: 
+    pivot: {x: 0.6363636, y: -0.29411766}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 154
+      y: 57
+      width: 22
+      height: 17
+    spriteID: a8c2457e0ac37b74fbb8f5451a9babc3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 154, y: 57}
+  - name: Spearguard_Frame_27
+    originalName: 
+    pivot: {x: 0.33333334, y: -0.3125}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 159
+      y: 31
+      width: 24
+      height: 16
+    spriteID: a453bb47019e25348ac0ca8fbe4e4a38
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 159, y: 31}
+  - name: Spearguard_Frame_28
+    originalName: 
+    pivot: {x: 0.3478261, y: -0.29411766}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 65
+      y: 31
+      width: 23
+      height: 17
+    spriteID: c7fc26349ffb983499a25d5df20cf5bc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 65, y: 31}
+  - name: Spearguard_Frame_29
+    originalName: 
+    pivot: {x: 0.6666667, y: -0.375}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 212
+      y: 57
+      width: 18
+      height: 16
+    spriteID: d383ef101d3f814448c60a4be78b23c2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 212, y: 57}
+  - name: Spearguard_Frame_30
+    originalName: 
+    pivot: {x: 0.65000004, y: -0.3529412}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 184
+      y: 57
+      width: 20
+      height: 17
+    spriteID: 856d9f3c6fdb2fc4180b1ceb285eb233
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 184, y: 57}
+  - name: Spearguard_Frame_31
+    originalName: 
+    pivot: {x: 0.61904764, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 70
+      y: 4
+      width: 21
+      height: 19
+    spriteID: a579a031212b6ce4fbe26154313e8716
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 70, y: 4}
+  - name: Spearguard_Frame_32
+    originalName: 
+    pivot: {x: 0.6086957, y: -0.29411766}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 31
+      width: 23
+      height: 17
+    spriteID: 746c04639caedf54d8699cc7ebaa9420
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 96, y: 31}
+  - name: Spearguard_Frame_33
+    originalName: 
+    pivot: {x: 0.5833334, y: -0.23529412}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 38
+      y: 4
+      width: 24
+      height: 17
+    spriteID: 0a9f12c2714088a45aa2c333f5957e60
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 38, y: 4}
+  - name: Spearguard_Frame_34
+    originalName: 
+    pivot: {x: 0.5769231, y: -0.15789473}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 26
+      height: 19
+    spriteID: fa235d8e227b470439025dc0e60dc39e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Spearguard_Frame_35
+    originalName: 
+    pivot: {x: 0.5769231, y: -0.54545456}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 28
+      y: 112
+      width: 26
+      height: 11
+    spriteID: 1857dead3e1022b48924e2bf9a86e7f9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 28, y: 112}
+  - name: Spearguard_Frame_36
+    originalName: 
+    pivot: {x: 1, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 238
+      y: 57
+      width: 5
+      height: 5
+    spriteID: 396b2d8dc7465234bb33e5b598488559
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 238, y: 57}
+  - name: Spearguard_Frame_37
+    originalName: 
+    pivot: {x: 1, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 244
+      y: 82
+      width: 5
+      height: 5
+    spriteID: 801abc2e8bcc49c428357bda21904943
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 244, y: 82}
+  - name: Spearguard_Frame_38
+    originalName: 
+    pivot: {x: 1, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 244
+      y: 95
+      width: 5
+      height: 5
+    spriteID: a4c03cc2b361a98429ade6a7169d8ca8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 244, y: 95}
+  - name: Spearguard_Frame_39
+    originalName: 
+    pivot: {x: 1, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 62
+      y: 112
+      width: 5
+      height: 5
+    spriteID: b3add8abaedd3034ba86179ace2e049f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 62, y: 112}
+  - name: Spearguard_Frame_40
+    originalName: 
+    pivot: {x: 1, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 75
+      y: 112
+      width: 5
+      height: 5
+    spriteID: 7b487ba924d273e4ba4011fed09453bd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 75, y: 112}
+  - name: Spearguard_Frame_41
+    originalName: 
+    pivot: {x: 1, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 88
+      y: 112
+      width: 5
+      height: 5
+    spriteID: 9e674fb9c4f51d44aa006328a3940061
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 88, y: 112}
+  - name: Spearguard_Frame_42
+    originalName: 
+    pivot: {x: 1, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 101
+      y: 112
+      width: 5
+      height: 5
+    spriteID: 84146953cee6685489f2269f8d87f826
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 101, y: 112}
+  - name: Spearguard_Frame_43
+    originalName: 
+    pivot: {x: 1, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 114
+      y: 112
+      width: 5
+      height: 5
+    spriteID: ab24aa3c135bff543927dac4ef5a91ed
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 114, y: 112}
+  - name: Spearguard_Frame_44
+    originalName: 
+    pivot: {x: 1, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 127
+      y: 112
+      width: 5
+      height: 5
+    spriteID: 86d4135959261f94abac0d9f94833252
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 127, y: 112}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1527054468
+    name: Spearguard
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Spearguard_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 4
+        y: 5
+        width: 16
+        height: 22
+      spriteId: 7ea4d370e16e1a844ac8c397437499e7
+    - name: Spearguard_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 4
+        y: 5
+        width: 16
+        height: 22
+      spriteId: 79cd289182ed07c43856792b79dc3938
+    - name: Spearguard_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 4
+        y: 5
+        width: 16
+        height: 22
+      spriteId: dabb42a16acc95e44ac5b1b6322bc1cf
+    - name: Spearguard_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 4
+        y: 5
+        width: 16
+        height: 22
+      spriteId: dce1c1339deebb74d93a188a708788a0
+    - name: Spearguard_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 4
+        y: 5
+        width: 16
+        height: 22
+      spriteId: 720ad954f29b6514a910894f23e13199
+    - name: Spearguard_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 4
+        y: 5
+        width: 16
+        height: 22
+      spriteId: 40c0a41d40b77fa43b26b775c9d94298
+    - name: Spearguard_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 4
+        y: 5
+        width: 16
+        height: 22
+      spriteId: 921aae5857c1c0843ba189cbd560e995
+    - name: Spearguard_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 4
+        y: 5
+        width: 16
+        height: 22
+      spriteId: 7396564929062b646a019a5b115e9962
+    - name: Spearguard_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 4
+        y: 5
+        width: 16
+        height: 22
+      spriteId: aea1b183875ca2845bf093a5ee6d111f
+    - name: Spearguard_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 4
+        y: 5
+        width: 16
+        height: 22
+      spriteId: 2968d8d71863ad14e8e64a5d011572be
+    - name: Spearguard_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 4
+        y: 5
+        width: 16
+        height: 22
+      spriteId: 61d8c3795f2bffe4a82e932f392da16c
+    - name: Spearguard_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 5
+        y: 5
+        width: 22
+        height: 17
+      spriteId: 47d6b9c56bb0fee41ae5cc2bab91dfa3
+    - name: Spearguard_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 5
+        y: 6
+        width: 22
+        height: 18
+      spriteId: a0cb08c170f07db4a91583bb8687155f
+    - name: Spearguard_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 5
+        y: 7
+        width: 22
+        height: 18
+      spriteId: af5b33f8237ef524f8533344cc12991e
+    - name: Spearguard_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 5
+        y: 7
+        width: 22
+        height: 17
+      spriteId: c156754c60cfd60448a6c6d9ed18b953
+    - name: Spearguard_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 5
+        y: 5
+        width: 22
+        height: 17
+      spriteId: 2061b9b5c9ae0114abc14314e4224bfc
+    - name: Spearguard_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 5
+        y: 6
+        width: 22
+        height: 18
+      spriteId: 0ebc3c1dedfb4364597981af1180c16d
+    - name: Spearguard_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 5
+        y: 7
+        width: 22
+        height: 18
+      spriteId: 8e45037b6a72def43a4cc00b6616401f
+    - name: Spearguard_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 5
+        y: 7
+        width: 22
+        height: 17
+      spriteId: 52d560ed149142b4685557eed39a176c
+    - name: Spearguard_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 4
+        y: 5
+        width: 22
+        height: 18
+      spriteId: 8367423acabe51a4a98bdd1dbbde02a8
+    - name: Spearguard_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 3
+        y: 5
+        width: 22
+        height: 17
+      spriteId: 34b51ab12398a124caf187acc926cd2c
+    - name: Spearguard_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 2
+        y: 5
+        width: 22
+        height: 17
+      spriteId: 0066a93c9ba4d7f46a8ca4c99cdbf52a
+    - name: Spearguard_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 8
+        y: 5
+        width: 24
+        height: 16
+      spriteId: 88b176035014f474dbb727d7a51d279b
+    - name: Spearguard_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 8
+        y: 5
+        width: 23
+        height: 17
+      spriteId: b6824e98c9fcbb442bff01a11e496bcb
+    - name: Spearguard_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 4
+        y: 5
+        width: 22
+        height: 18
+      spriteId: 9ab41e58275fc6744bd63af2cb32aa8c
+    - name: Spearguard_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 3
+        y: 5
+        width: 22
+        height: 17
+      spriteId: 9d80ad46f4d600446a03adc66252b96f
+    - name: Spearguard_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 2
+        y: 5
+        width: 22
+        height: 17
+      spriteId: a8c2457e0ac37b74fbb8f5451a9babc3
+    - name: Spearguard_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 8
+        y: 5
+        width: 24
+        height: 16
+      spriteId: a453bb47019e25348ac0ca8fbe4e4a38
+    - name: Spearguard_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 8
+        y: 5
+        width: 23
+        height: 17
+      spriteId: c7fc26349ffb983499a25d5df20cf5bc
+    - name: Spearguard_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 4
+        y: 6
+        width: 18
+        height: 16
+      spriteId: d383ef101d3f814448c60a4be78b23c2
+    - name: Spearguard_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 3
+        y: 6
+        width: 20
+        height: 17
+      spriteId: 856d9f3c6fdb2fc4180b1ceb285eb233
+    - name: Spearguard_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 3
+        y: 5
+        width: 21
+        height: 19
+      spriteId: a579a031212b6ce4fbe26154313e8716
+    - name: Spearguard_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 2
+        y: 5
+        width: 23
+        height: 17
+      spriteId: 746c04639caedf54d8699cc7ebaa9420
+    - name: Spearguard_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 2
+        y: 4
+        width: 24
+        height: 17
+      spriteId: 0a9f12c2714088a45aa2c333f5957e60
+    - name: Spearguard_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 1
+        y: 3
+        width: 26
+        height: 19
+      spriteId: fa235d8e227b470439025dc0e60dc39e
+    - name: Spearguard_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 1
+        y: 6
+        width: 26
+        height: 11
+      spriteId: 1857dead3e1022b48924e2bf9a86e7f9
+    - name: Spearguard_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 11
+        y: 5
+        width: 5
+        height: 5
+      spriteId: 396b2d8dc7465234bb33e5b598488559
+    - name: Spearguard_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 11
+        y: 5
+        width: 5
+        height: 5
+      spriteId: 801abc2e8bcc49c428357bda21904943
+    - name: Spearguard_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 11
+        y: 5
+        width: 5
+        height: 5
+      spriteId: a4c03cc2b361a98429ade6a7169d8ca8
+    - name: Spearguard_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 11
+        y: 5
+        width: 5
+        height: 5
+      spriteId: b3add8abaedd3034ba86179ace2e049f
+    - name: Spearguard_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 11
+        y: 5
+        width: 5
+        height: 5
+      spriteId: 7b487ba924d273e4ba4011fed09453bd
+    - name: Spearguard_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 11
+        y: 5
+        width: 5
+        height: 5
+      spriteId: 9e674fb9c4f51d44aa006328a3940061
+    - name: Spearguard_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 11
+        y: 5
+        width: 5
+        height: 5
+      spriteId: 84146953cee6685489f2269f8d87f826
+    - name: Spearguard_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 11
+        y: 5
+        width: 5
+        height: 5
+      spriteId: ab24aa3c135bff543927dac4ef5a91ed
+    - name: Spearguard_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 11
+        y: 5
+        width: 5
+        height: 5
+      spriteId: 86d4135959261f94abac0d9f94833252
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 32, y: 32}
