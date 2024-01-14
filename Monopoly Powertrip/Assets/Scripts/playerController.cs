@@ -5,7 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class playerController : MonoBehaviour
 {
+<<<<<<< Updated upstream
 <<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
     public int health = 3;
 =======
     public playerController thePlayer;
