@@ -5,6 +5,7 @@ using UnityEngine;
 public class weaponShoot : MonoBehaviour
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
 //HEAD
     public bool changeBullets = true;
     public GameObject bullet;
@@ -14,12 +15,18 @@ public class weaponShoot : MonoBehaviour
 
 //Shooting_Script_1_11_2024
 =======
+=======
+
+>>>>>>> Boss-Moving-back-and-forth-first-stage-1_15_2024
     public GameObject bullet;
     public GameObject bulletTwo;
     public GameObject bulletThree;
     public int changeBullets = 1;
+<<<<<<< HEAD
 >>>>>>> Fixing_More_Issues
     // Start is called before the first frame update
+=======
+>>>>>>> Boss-Moving-back-and-forth-first-stage-1_15_2024
     void Start()
     {
         

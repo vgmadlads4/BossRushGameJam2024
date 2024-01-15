@@ -1,5 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Monopoly Powertrip/Assets/Scripts/playerTracker.cs.meta
 guid: 80d275ace0ca14449a6c7fe99ee9325d
+=======
+<<<<<<< Updated upstream
+guid: 8b9cc1388b1138e4985a6b704bde9447
+=======
+guid: 6a97ee53ed22caa45a9823ece2c3e42e
+>>>>>>> Stashed changes
+>>>>>>> Boss-Moving-back-and-forth-first-stage-1_15_2024:Monopoly Powertrip/Assets/Scripts/playerController.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2

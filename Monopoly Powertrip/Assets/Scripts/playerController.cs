@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class playerController : MonoBehaviour
 {
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18,6 +19,8 @@ public class playerController : MonoBehaviour
 =======
     public int health = 3;
 >>>>>>> Fixing_More_Issues
+=======
+>>>>>>> Boss-Moving-back-and-forth-first-stage-1_15_2024
     public playerController thePlayer;
     public GameObject playerCharacter;
     public int getBulletType;
@@ -28,8 +31,11 @@ public class playerController : MonoBehaviour
     }
 <<<<<<< HEAD
 
+<<<<<<< HEAD
 =======
 >>>>>>> Fixing_More_Issues
+=======
+>>>>>>> Boss-Moving-back-and-forth-first-stage-1_15_2024
     // Start is called before the first frame update
     void Start()
     {
