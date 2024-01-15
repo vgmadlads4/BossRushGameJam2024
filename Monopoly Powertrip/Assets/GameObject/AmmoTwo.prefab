@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1285555674005486933}
   - component: {fileID: 4234829654078250554}
-  - component: {fileID: -8879506257796176496}
   m_Layer: 0
   m_Name: AmmoTwo
   m_TagString: Untagged
@@ -79,18 +78,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &-8879506257796176496
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6500393008018482324}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c72bf8db817a7a84d99f5209361c7cef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &8333978922456807199
 GameObject:
   m_ObjectHideFlags: 0

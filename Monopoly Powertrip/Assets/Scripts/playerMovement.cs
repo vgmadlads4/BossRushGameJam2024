@@ -15,15 +15,19 @@ public class playerMovement : MonoBehaviour
     {
         if (Input.GetKey("d"))
         {
-            this.GetComponent<Transform>().position = new Vector2(this.GetComponent<Transform>().position.x + 0.1f, this.GetComponent<Transform>().position.y);
+            this.GetComponent<Transform>().Translate(Vector2.right * 0.01f);
         }
         if (Input.GetKey("a"))
         {
-            this.GetComponent<Transform>().position = new Vector2(this.GetComponent<Transform>().position.x - 0.1f, this.GetComponent<Transform>().position.y);
+            this.GetComponent<Transform>().Translate(Vector2.left * 0.01f);
         }
-        if (Input.GetKeyDown("space") && GetComponent<CharacterController>().isGrounded)
+    }
+
+    void OnTriggerStay2D(Collider2D collision)
+    {
+        if (Input.GetKey("space"))
         {
-            this.GetComponent<Rigidbody2D>().transform.position = new Vector2(this.GetComponent<Transform>().position.x, this.GetComponent<Transform>().position.y + 0.1f);
+            this.GetComponent<Rigidbody2D>().velocity = (Vector2.up * 5f);
         }
     }
 }
