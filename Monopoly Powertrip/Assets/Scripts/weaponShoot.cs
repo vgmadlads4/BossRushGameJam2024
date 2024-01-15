@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class weaponShoot : MonoBehaviour
 {
+<<<<<<< HEAD
 //HEAD
     public bool changeBullets = true;
     public GameObject bullet;
@@ -12,6 +13,12 @@ public class weaponShoot : MonoBehaviour
     public int change_Bullets = 1;
 
 //Shooting_Script_1_11_2024
+=======
+    public GameObject bullet;
+    public GameObject bulletTwo;
+    public GameObject bulletThree;
+    public int changeBullets = 1;
+>>>>>>> Fixing_More_Issues
     // Start is called before the first frame update
     void Start()
     {

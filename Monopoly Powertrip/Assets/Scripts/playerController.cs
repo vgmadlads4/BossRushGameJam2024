@@ -5,9 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class playerController : MonoBehaviour
 {
+<<<<<<< HEAD
  //HEAD
     public int health = 3;
 
+=======
+    public int health = 3;
+>>>>>>> Fixing_More_Issues
     public playerController thePlayer;
     public GameObject playerCharacter;
     public int getBulletType;
@@ -16,7 +20,10 @@ public class playerController : MonoBehaviour
     {
 
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> Fixing_More_Issues
     // Start is called before the first frame update
     void Start()
     {
