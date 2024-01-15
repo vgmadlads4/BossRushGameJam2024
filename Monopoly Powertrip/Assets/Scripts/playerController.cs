@@ -5,8 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class playerController : MonoBehaviour
 {
+<<<<<<< Updated upstream
+<<<<<<< HEAD
 <<<<<<< HEAD
  //HEAD
+=======
+=======
+>>>>>>> Stashed changes
+>>>>>>> Merge_Issues_Fix_1_14_2024
     public int health = 3;
 
 =======
