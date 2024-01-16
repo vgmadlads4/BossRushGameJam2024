@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class playerTracker : MonoBehaviour
 {
-    int health = 3;
+    public int health = 3;
     public GameObject playerModel;
     void Awake()
     {
@@ -24,5 +24,11 @@ public class playerTracker : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void removeAHealthPoint()
+    {
+        print("Hi");
+        health = -1;
     }
 }

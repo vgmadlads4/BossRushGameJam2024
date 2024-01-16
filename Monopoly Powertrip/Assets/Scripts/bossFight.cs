@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class bossFight : MonoBehaviour
 {
-    int bossHealth = 3;
-    int bossDirection = 1;
+    public int bossHealth = 9;
+    public int bossDirection = 1;
 
     // Start is called before the first frame update
     void Start()
@@ -21,7 +21,7 @@ public class bossFight : MonoBehaviour
 
     IEnumerator bossFightStages()
     {
-        if (bossHealth >= 3)
+        if (bossHealth > 6 && bossHealth <=9)
         {
             if (bossDirection == 1)
             {
@@ -32,7 +32,7 @@ public class bossFight : MonoBehaviour
                 this.GetComponent<Transform>().Translate(Vector2.right * 0.01f);
             }
         }
-        else if(bossHealth >= 2)
+        else if(bossHealth > 3 && bossHealth <= 6)
         {
             //GameObject theBullet = Instantiate(GetComponent<weaponShoot>().bullet, GameObject.Find("bulletSpawn").transform);
             //theBullet.GetComponent<Rigidbody2D>().velocity = new Vector2(10, 0);
@@ -40,15 +40,15 @@ public class bossFight : MonoBehaviour
             //Destroy(theBullet);
             //yield return new WaitForSeconds(2);
         }
-        else if(bossHealth >= 1)
+        else if(bossHealth <= 3 && bossHealth > 0)
         {
 
         }
-        else
+        else 
         {
             Destroy(this.gameObject);
         }
-        yield return new WaitForSeconds(2);
+        yield return null;
     }
 
     void randomBulletTime()
@@ -66,6 +66,14 @@ public class bossFight : MonoBehaviour
         if (collision.name == "rightSide")
         {
             bossDirection = 1;
+        }
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.tag == "Bullet")
+        {
+            bossHealth = bossHealth - 1;
         }
     }
 
