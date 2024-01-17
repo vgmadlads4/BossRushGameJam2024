@@ -24,8 +24,8 @@ public class bulletsFlying : MonoBehaviour
 
         if (GetComponent<weaponShoot>().change_Bullets == 1)
         {
-            GameObject theBullet = Instantiate(GetComponent<weaponShoot>().bullet,GameObject.Find("bulletSpawn").transform);
-            theBullet.GetComponent<Rigidbody2D>().velocity = new Vector2(10,0);
+            GameObject theBullet = Instantiate(GetComponent<weaponShoot>().bullet,GameObject.Find("bulletSpawn").transform.position, GameObject.Find("bulletSpawn").transform.rotation);
+            theBullet.GetComponent<Rigidbody2D>().velocity = Vector2.right * 10;
             yield return new WaitForSeconds(2);
             Destroy(theBullet);
         }

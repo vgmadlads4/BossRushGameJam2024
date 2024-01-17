@@ -25,6 +25,7 @@ public class bulletHit : MonoBehaviour
         }
         if (collision.gameObject.tag == "Boss")
         {
+            GameObject.FindWithTag("Boss").SendMessage("bossHealthDecrease");
             Destroy(this.gameObject);
         }
     }
