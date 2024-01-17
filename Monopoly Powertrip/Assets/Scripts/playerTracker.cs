@@ -28,7 +28,10 @@ public class playerTracker : MonoBehaviour
 
     public void removeAHealthPoint()
     {
+<<<<<<< HEAD
         print("Hi");
+=======
+>>>>>>> Second_Stage_Of_The_First_Boss_1_16_2024
         health = -1;
     }
 }
