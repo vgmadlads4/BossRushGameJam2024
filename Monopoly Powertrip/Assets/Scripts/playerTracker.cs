@@ -25,4 +25,12 @@ public class playerTracker : MonoBehaviour
     {
         
     }
+<<<<<<< Updated upstream
+=======
+
+    public void removeAHealthPoint()
+    {
+        health = -1;
+    }
+>>>>>>> Stashed changes
 }
