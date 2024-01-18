@@ -40,6 +40,7 @@ public class bossFight : MonoBehaviour
                 this.GetComponent<Transform>().Translate(Vector2.zero);
                 this.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
                 this.GetComponent<Rigidbody2D>().gravityScale = 0;
+                this.GetComponent<Rigidbody2D>().isKinematic = true;
                 //yield return new WaitForSeconds(1);
                 int randomPlace = Random.Range(0, 4);
                 switch (randomPlace)
@@ -111,13 +112,15 @@ public class bossFight : MonoBehaviour
 
     IEnumerator bulletsFlyingOff()
     {
-        GameObject theBullet = Instantiate(bossBullet);
-
-        //theBullet.GetComponent<Transform>().LookAt(GameObject.FindWithTag("Player").GetComponent<Transform>().position);
-        //Vector2 playerPosition = GameObject.FindWithTag("Player").GetComponent<Transform>().position;
+        GameObject theBullet = Instantiate(bossBullet,this.GetComponent<Transform>().position, this.GetComponent<Transform>().rotation);
+        //theBullet.GetComponent<Transform>().transform.LookAt(GameObject.FindWithTag("Player").GetComponent<Transform>().transform.position);
+        theBullet.GetComponent<Rigidbody2D>().velocity = 15*Vector2.MoveTowards(theBullet.GetComponent<Transform>().position,GameObject.FindWithTag("Player").GetComponent<Transform>().transform.position,1f);
+            
+            
+            
+         
         //print(playerPosition);
         //GameObject.FindWithTag("Player").GetComponent<Transform>().position.
-        //theBullet.GetComponent<Rigidbody2D>().velocity = new Vector2(GameObject.FindWithTag("Player").GetComponent<Transform>().position.x - this.GetComponent<Transform>().position.x, GameObject.FindWithTag("Player").GetComponent<Transform>().position.y - this.GetComponent<Transform>().position.y);
         yield return new WaitForSeconds(2);
         Destroy(theBullet);
     }
