@@ -121,7 +121,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bossHealth: 9
   bossDirection: 1
-  bossBullet: {fileID: 7761318093018073077, guid: 7159b94f40fae2545aaad0ca2412a5c1, type: 3}
+  bossBullet: {fileID: 6500393008018482324, guid: 6a4f5e781ba7f614eb3c640f416a9a09, type: 3}
 --- !u!1 &6264903661199408232
 GameObject:
   m_ObjectHideFlags: 0

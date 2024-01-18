@@ -112,7 +112,12 @@ public class bossFight : MonoBehaviour
     IEnumerator bulletsFlyingOff()
     {
         GameObject theBullet = Instantiate(bossBullet);
-        bossBullet.GetComponent<Rigidbody2D>().velocity = Vector2.right * 10;//(this.GetComponent<Transform>().position - GameObject.FindWithTag("Player").GetComponent<Transform>().position);
+
+        //theBullet.GetComponent<Transform>().LookAt(GameObject.FindWithTag("Player").GetComponent<Transform>().position);
+        //Vector2 playerPosition = GameObject.FindWithTag("Player").GetComponent<Transform>().position;
+        //print(playerPosition);
+        //GameObject.FindWithTag("Player").GetComponent<Transform>().position.
+        //theBullet.GetComponent<Rigidbody2D>().velocity = new Vector2(GameObject.FindWithTag("Player").GetComponent<Transform>().position.x - this.GetComponent<Transform>().position.x, GameObject.FindWithTag("Player").GetComponent<Transform>().position.y - this.GetComponent<Transform>().position.y);
         yield return new WaitForSeconds(2);
         Destroy(theBullet);
     }
