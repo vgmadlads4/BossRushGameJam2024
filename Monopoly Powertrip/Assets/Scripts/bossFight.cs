@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class bossFight : MonoBehaviour
 {
-    public int bossHealth = 9;
+    public int bossHealth = 6;//9;
     public int bossDirection = 1;
     public GameObject bossBullet;
+    public float currentAngle = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -42,7 +43,7 @@ public class bossFight : MonoBehaviour
                 this.GetComponent<Rigidbody2D>().gravityScale = 0;
                 this.GetComponent<Rigidbody2D>().isKinematic = true;
                 //yield return new WaitForSeconds(1);
-                int randomPlace = 2;//Random.Range(0, 4);
+                int randomPlace = 3;//Random.Range(0, 4);
                 switch (randomPlace)
                 {
                     case 0:
@@ -112,10 +113,15 @@ public class bossFight : MonoBehaviour
 
     IEnumerator bulletsFlyingOff()
     {
-        Vector3 bulletRotation = Quaternion.FromToRotation(GameObject.Find("forwardBullet").GetComponent<Transform>().position, GameObject.FindWithTag("Player").GetComponent<Transform>().transform.position).eulerAngles;
-        GameObject.Find("theBossBarrell").transform.rotation = Quaternion.Euler(bulletRotation);
-        //theBullet.GetComponent<Rigidbody2D>().velocity =
-        //print(theBullet.GetComponent<Rigidbody2D>().velocity);
+        GameObject.Find("centerOfChamber").GetComponent<Transform>().LookAt(GameObject.Find("playerCenter").GetComponent<Transform>().position);
+        Vector3 theZFactor = GameObject.Find("centerOfChamber").GetComponent<Transform>().rotation.eulerAngles;
+        GameObject.Find("theBossBarrell").GetComponent<Transform>().rotation = Quaternion.Euler(0f, 0f, theZFactor.x);
+
+        GameObject theBullet = Instantiate(bossBullet, GameObject.Find("forwardBullet").transform.position, GameObject.Find("forwardBullet").transform.rotation);
+        //theBullet.GetComponent<Rigidbody2D>().velocity = new Vector3()
+        yield return new WaitForSeconds(2);
+        Destroy(theBullet);
+
         yield return null;
     }
 
