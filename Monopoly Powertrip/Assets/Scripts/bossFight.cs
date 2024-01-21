@@ -115,7 +115,10 @@ public class bossFight : MonoBehaviour
     {
         GameObject.Find("centerOfChamber").GetComponent<Transform>().LookAt(GameObject.Find("playerCenter").GetComponent<Transform>().position);
         Vector3 theZFactor = GameObject.Find("centerOfChamber").GetComponent<Transform>().rotation.eulerAngles;
-        GameObject.Find("theBossBarrell").GetComponent<Transform>().rotation = Quaternion.Euler(0f, 0f, theZFactor.x);
+        if(theZFactor.y > 90)
+        {
+            GameObject.Find("theBossBarrell").GetComponent<Transform>().rotation = Quaternion.Euler(0f, 0f, theZFactor.x);
+        }
 
         GameObject theBullet = Instantiate(bossBullet, GameObject.Find("forwardBullet").transform.position, GameObject.Find("forwardBullet").transform.rotation);
         //theBullet.GetComponent<Rigidbody2D>().velocity = new Vector3()
