@@ -7,7 +7,7 @@ public class bulletHit : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -27,6 +27,11 @@ public class bulletHit : MonoBehaviour
         {
             GameObject.FindWithTag("Boss").SendMessage("bossHealthDecrease");
             Destroy(this.gameObject);
+        }
+        if(collision.gameObject.tag == "BossBullet")
+        {
+            Destroy(this.gameObject);
+            Destroy(collision.gameObject);
         }
     }
 }

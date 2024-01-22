@@ -146,27 +146,27 @@ public class bossFight : MonoBehaviour
             switch (randomGun)
             {
                 case 0:
-                    GameObject theBullet = Instantiate(bossBullet, GameObject.Find("topLeft").transform.position, GameObject.Find("topLeft").transform.rotation);
+                    GameObject theBullet = Instantiate(bossBullet, GameObject.Find("topLeft").transform.position, Quaternion.Euler(0,0,90));
                     theBullet.GetComponent<Rigidbody2D>().velocity = 10f * Vector2.down;
                     yield return new WaitForSeconds(2);
                     Destroy(theBullet);
                     yield return null;
                     break;
                 case 1:
-                    GameObject theBulletTwo = Instantiate(bossBullet, GameObject.Find("topMiddle").transform.position, GameObject.Find("topMiddle").transform.rotation);
+                    GameObject theBulletTwo = Instantiate(bossBullet, GameObject.Find("topMiddle").transform.position, Quaternion.Euler(0, 0, 90));
                     theBulletTwo.GetComponent<Rigidbody2D>().velocity = 10f * Vector2.down;
                     yield return new WaitForSeconds(2);
                     Destroy(theBulletTwo);
                     yield return null;
                     break;
                 case 2:
-                    GameObject theBulletThree = Instantiate(bossBullet, GameObject.Find("topRight").transform.position, GameObject.Find("topRight").transform.rotation);
+                    GameObject theBulletThree = Instantiate(bossBullet, GameObject.Find("topRight").transform.position, Quaternion.Euler(0, 0, 90));
                     theBulletThree.GetComponent<Rigidbody2D>().velocity = 10f * Vector2.down;
                     yield return new WaitForSeconds(2);
                     Destroy(theBulletThree);
                     break;
                 default:
-                    GameObject theBulletFour = Instantiate(bossBullet, GameObject.Find("topMiddle").transform.position, GameObject.Find("topMiddle").transform.rotation);
+                    GameObject theBulletFour = Instantiate(bossBullet, GameObject.Find("topMiddle").transform.position, Quaternion.Euler(0, 0, 90));
                     theBulletFour.GetComponent<Rigidbody2D>().velocity = 10f * Vector2.down;
                     yield return new WaitForSeconds(2);
                     Destroy(theBulletFour);

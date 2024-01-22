@@ -7,7 +7,7 @@ public class bossBulletHit : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Physics2D.IgnoreCollision(this.gameObject.GetComponent<Collider2D>(),GameObject.FindWithTag("Boss").GetComponent<Collider2D>());
+        Physics2D.IgnoreCollision(this.GetComponent<Collider2D>(),GameObject.FindWithTag("Boss").GetComponent<Collider2D>());
     }
 
     // Update is called once per frame
