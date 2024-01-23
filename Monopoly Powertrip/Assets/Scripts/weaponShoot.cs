@@ -8,6 +8,7 @@ public class weaponShoot : MonoBehaviour
     public GameObject bullet;
     public GameObject bulletTwo;
     public GameObject bulletThree;
+    public GameObject bulletFour;
     public int change_Bullets = 1;
     void Start()
     {
@@ -28,6 +29,10 @@ public class weaponShoot : MonoBehaviour
         else if(Input.GetKeyDown("3"))
         {
             change_Bullets = 3;
+        }
+        else if (Input.GetKeyDown("4"))
+        {
+            change_Bullets = 4;
         }
     }
 }

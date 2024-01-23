@@ -31,10 +31,21 @@ public class bulletsFlying : MonoBehaviour
         }
         if (GetComponent<weaponShoot>().change_Bullets == 2)
         {
-            GameObject theBullet = Instantiate(GetComponent<weaponShoot>().bullet,GameObject.Find("bulletSpawn").transform);
+            GameObject theBullet = Instantiate(GetComponent<weaponShoot>().bulletTwo,GameObject.Find("bulletSpawn").transform);
             theBullet.GetComponent<Rigidbody2D>().velocity = new Vector2(10, 10);
             yield return new WaitForSeconds(2);
             Destroy(theBullet);
+        }
+        if(GetComponent<weaponShoot>().change_Bullets == 3)
+        {
+            GameObject theBullet = Instantiate(GetComponent<weaponShoot>().bulletThree, GameObject.Find("bulletSpawn").transform);
+            theBullet.GetComponent<Rigidbody2D>().velocity = Vector2.up * 10;
+            yield return new WaitForSeconds(2);
+            Destroy(theBullet);
+        }
+        if (GetComponent<weaponShoot>().change_Bullets == 4)
+        {
+            GameObject theBullet = Instantiate(GetComponent<weaponShoot>().bulletThree, GameObject.Find("bulletSpawn").transform);
         }
     }
 }
